@@ -10,7 +10,7 @@ SELECT  * FROM public.books  WHERE name LIKE 'T%'
  SELECT  * FROM public.books  WHERE name LIKE '%Murder%'
 
 /*  Select authors which are “not” older than 60 years */
-SELECT * FROM public.authors WHERE birth_year !>60;
+SELECT * FROM public.authors WHERE birth_year <60;
 
 /* Select authors which are  older than 40 years old */
 SELECT * FROM public.authors WHERE birth_year>60;
