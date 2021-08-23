@@ -12,9 +12,5 @@ CREATE TABLE
 			updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
 			published_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 			);
-	INSERT INTO public.books(name,category,cover,author) VALUES('Origin','mystery','DANBROWN.jpg','Dan Brown');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Origin','mystery','DANBROWN.jpg','Agatha  Christie');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Origin','mystery','DANBROWN.jpg','Paulo Coelho');
-	INSERT INTO public.books(name,category,cover,author) VALUES('Origin','mystery','DANBROWN.jpg','Ken Follett');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Origin','mystery','DANBROWN.jpg','John Grisham');
+	
 	

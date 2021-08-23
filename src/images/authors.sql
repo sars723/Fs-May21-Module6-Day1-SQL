@@ -12,12 +12,11 @@ CREATE TABLE
 			updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
 			published_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 			);
-	INSERT INTO public.books(name,category,cover,author) VALUES('Dan Brown','Sacrilege','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Agatha','Christie','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Paulo','Coelho','1970','USA');
-	INSERT INTO public.books(name,category,cover,author) VALUES('Ken ','Follett','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('John','Grisham','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Stephen','King','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('Haruki','Murakam','1970','USA');
-	INSERT INTO public.books(name,category,cover,author)  VALUES('James','Patterson','1970','USA');
-	
+	INSERT INTO public.authors(name,last_name,birth_year,country) VALUES('Dan Brown','Sacrilege','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country)   VALUES('Agatha','Christie','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country)  VALUES('Paulo','Coelho','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country) VALUES('Ken ','Follett','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country)   VALUES('John','Grisham','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country)  VALUES('Stephen','King','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country)   VALUES('Haruki','Murakam','1970','USA');
+	INSERT INTO public.authors(name,last_name,birth_year,country) VALUES('James','Patterson','1970','USA');
